@@ -56,17 +56,17 @@
     },
 
     {
-        "id": 
-        "Title": 
-        "Image": 
-        "Year": 
-        "Duration": 
-        "Genre": 
-        "Description": 
-        "Director": 
-        "Script": 
-        "Cast": 
-        "url":
+        "id": 4,
+        "Title": "Trol",
+        "Image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9z4jRr43JdtU66P0iy8h18OyLql.jpg",
+        "Year": 2022,
+        "Duration": "1h 43m",
+        "Genre": "Fantasía, Acción, Aventura",
+        "Description": "Cuando una explosión en las montañas noruegas despierta a un antiguo trol, las autoridades designan a una osada paleontóloga para que evite que cause estragos en el lugar.",
+        "Director": "Roar Uthaug",
+        "Script": "Roar Uthaug, Espen Aukan ",
+        "Cast": "Ine Marie Wilmann, Kim S. Falck-Jørgensen, Mads Sjøgård Pettersen, Gard B. Eidsvold",
+        "url": "https://www.youtube.com/watch?v=VNkicC0BOEQ&ab_channel=NetflixLatinoam%C3%A9rica"
     },
 
     {
