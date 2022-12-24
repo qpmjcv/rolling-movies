@@ -1,201 +1,111 @@
-[ 
-    {   
-        "id": 0,
-        "Title": "No Country for Old Men",
-        "Image": "https://www.imdb.com/title/tt0477348/mediaviewer/rm1630374145/?ref_=tt_ov_i",
-        "Year": 2007,
-        "Duration": "2h 2m",
-        "Genre": "Crimen Drama Suspenso",
-        "Description": "La violencia y el caos se producen después de que un cazador de antílopes, descubre un cargamento de heroína y dos millones de dólares en efectivo.",
-        "Director": "Ethan Coen & Joel Coen",
-        "Script": "Joel Coen (screenplay) Ethan Coen(screenplay) Cormac McCarthy (novel)",
-        "Cast": "Tommy Lee Jones, Javier Bardem, Josh Brolin",
-        "url": "https://youtu.be/38A__WT3-o0"
-    },
-
+{
+  "Movies": [
     {
-        "id": 1,
-        "Title": "Avatar: El camino del agua",
-        "Image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8htEc0NimXTzTDdxScpCupdSgT9.jpg",
-        "Year": 2022,
-        "Duration": "3h 12m",
-        "Genre": "Ciencia ficción, Acción, Aventura",
-        "Description": "La historia de la familia Sully (Jake, Neytiri y sus hijos), los problemas que les persiguen, lo que hacen para mantenerse a salvo, las batallas que libran para seguir vivos y las tragedias que soportan.",
-        "Director": "James Cameron",
-        "Script": "James Cameron",
-        "Cast": "Sam Worthington, Zoe Saldaña, Sigourney Weaver",
-        "url": "https://youtu.be/bDFKIs4v0B4"
+      "id": 0,
+      "Title": "No Country for Old Men",
+      "Image": "https://www.imdb.com/title/tt0477348/mediaviewer/rm1630374145/?ref_=tt_ov_i",
+      "Year": 2007,
+      "Duration": "2h 2m",
+      "Genre": "Crimen Drama Suspenso",
+      "Description": "La violencia y el caos se producen después de que un cazador de antílopes, descubre un cargamento de heroína y dos millones de dólares en efectivo.",
+      "Director": "Ethan Coen & Joel Coen",
+      "Script": "Joel Coen (screenplay) Ethan Coen(screenplay) Cormac McCarthy (novel)",
+      "Cast": "Tommy Lee Jones, Javier Bardem, Josh Brolin",
+      "url": "https://youtu.be/38A__WT3-o0"
     },
-    
     {
-        "id": 2,
-        "Title": "Black Adam",
-        "Image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mPTzXksC8HcAj6EM6WjZFJVJEzF.jpg",
-        "Year": 2022,
-        "Duration": "2h 5m",
-        "Genre": "Acción, Fantasía, Ciencia ficción", 
-        "Description": "Casi 5,000 años después de obtener los poderes supremos de los antiguos dioses, y de ser encarcelado igual de rápido, Teth Adam se libera de su tumba terrenal, listo para desatar su peculiar forma de justicia en el mundo moderno.",
-        "Director": "Jaume Collet-Serra",
-        "Script": "Sohrab Noshirvani, Adam Sztykiel, Rory Haines",
-        "Cast": "Dwayne Johnson, Aldis Hodge, Noah Centineo, Sarah Shahi",
-        "url": "https://youtu.be/a1mcS4tKGNg"
+      "id": 1,
+      "Title": "Avatar: El camino del agua",
+      "Image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8htEc0NimXTzTDdxScpCupdSgT9.jpg",
+      "Year": 2022,
+      "Duration": "3h 12m",
+      "Genre": "Ciencia ficción, Acción, Aventura",
+      "Description": "La historia de la familia Sully (Jake, Neytiri y sus hijos), los problemas que les persiguen, lo que hacen para mantenerse a salvo, las batallas que libran para seguir vivos y las tragedias que soportan.",
+      "Director": "James Cameron",
+      "Script": "James Cameron",
+      "Cast": "Sam Worthington, Zoe Saldaña, Sigourney Weaver",
+      "url": "https://youtu.be/bDFKIs4v0B4"
     },
-
     {
-        "id": 3,
-        "Title": "Pinocho de Guillermo del Toro",
-        "Image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hVa3OCfwqFm6K3Sk6IF68cYr7uk.jpg",
-        "Year": 2022,
-        "Duration": "1h 57m",
-        "Genre": "Animación, Fantasía, Drama",
-        "Description": "Durante el auge del fascismo en la Italia de Mussolini, un niño de madera resucitado por arte de magia lucha por estar a la altura de las expectativas de su padre.",
-        "Director": "Guillermo del Toro",
-        "Script": "Patrick McHale, Guillermo del Toro",
-        "Cast": "Gregory Mann, Ewan McGregor, David Bradley, Christoph Waltz",
-        "url": "https://youtu.be/-WgZ_IQU0Ks"
+      "id": 2,
+      "Title": "Black Adam",
+      "Image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mPTzXksC8HcAj6EM6WjZFJVJEzF.jpg",
+      "Year": 2022,
+      "Duration": "2h 5m",
+      "Genre": "Acción, Fantasía, Ciencia ficción",
+      "Description": "Casi 5,000 años después de obtener los poderes supremos de los antiguos dioses, y de ser encarcelado igual de rápido, Teth Adam se libera de su tumba terrenal, listo para desatar su peculiar forma de justicia en el mundo moderno.",
+      "Director": "Jaume Collet-Serra",
+      "Script": "Sohrab Noshirvani, Adam Sztykiel, Rory Haines",
+      "Cast": "Dwayne Johnson, Aldis Hodge, Noah Centineo, Sarah Shahi",
+      "url": "https://youtu.be/a1mcS4tKGNg"
     },
-
     {
-        "id": 4,
-        "Title": "Trol",
-        "Image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9z4jRr43JdtU66P0iy8h18OyLql.jpg",
-        "Year": 2022,
-        "Duration": "1h 43m",
-        "Genre": "Fantasía, Acción, Aventura",
-        "Description": "Cuando una explosión en las montañas noruegas despierta a un antiguo trol, las autoridades designan a una osada paleontóloga para que evite que cause estragos en el lugar.",
-        "Director": "Roar Uthaug",
-        "Script": "Roar Uthaug, Espen Aukan ",
-        "Cast": "Ine Marie Wilmann, Kim S. Falck-Jørgensen, Mads Sjøgård Pettersen, Gard B. Eidsvold",
-        "url": "https://www.youtube.com/watch?v=VNkicC0BOEQ&ab_channel=NetflixLatinoam%C3%A9rica"
+      "id": 3,
+      "Title": "Pinocho de Guillermo del Toro",
+      "Image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hVa3OCfwqFm6K3Sk6IF68cYr7uk.jpg",
+      "Year": 2022,
+      "Duration": "1h 57m",
+      "Genre": "Animación, Fantasía, Drama",
+      "Description": "Durante el auge del fascismo en la Italia de Mussolini, un niño de madera resucitado por arte de magia lucha por estar a la altura de las expectativas de su padre.",
+      "Director": "Guillermo del Toro",
+      "Script": "Patrick McHale, Guillermo del Toro",
+      "Cast": "Gregory Mann, Ewan McGregor, David Bradley, Christoph Waltz",
+      "url": "https://youtu.be/-WgZ_IQU0Ks"
     },
-
     {
-        "id": 
-        "Title": 
-        "Image": 
-        "Year": 
-        "Duration": 
-        "Genre": 
-        "Description": 
-        "Director": 
-        "Script": 
-        "Cast": 
-        "url":
-    },
-
-    {
-        "id": 
-        "Title": 
-        "Image": 
-        "Year": 
-        "Duration": 
-        "Genre": 
-        "Description": 
-        "Director": 
-        "Script": 
-        "Cast": 
-        "url":
-    },
-
-    {
-        "id": 
-        "Title": 
-        "Image": 
-        "Year": 
-        "Duration": 
-        "Genre": 
-        "Description": 
-        "Director": 
-        "Script": 
-        "Cast": 
-        "url":
-    },
-
-    {
-        "id": 
-        "Title": 
-        "Image": 
-        "Year": 
-        "Duration": 
-        "Genre": 
-        "Description": 
-        "Director": 
-        "Script": 
-        "Cast": 
-        "url":
-    },
-
-    {
-        "id": 
-        "Title": 
-        "Image": 
-        "Year": 
-        "Duration": 
-        "Genre": 
-        "Description": 
-        "Director": 
-        "Script": 
-        "Cast": 
-        "url":
-    },
-
-    {
-        "id": 
-        "Title": 
-        "Image": 
-        "Year": 
-        "Duration": 
-        "Genre": 
-        "Description": 
-        "Director": 
-        "Script": 
-        "Cast": 
-        "url":
-    },
-
-    {
-        "id": 
-        "Title": 
-        "Image": 
-        "Year": 
-        "Duration": 
-        "Genre": 
-        "Description": 
-        "Director": 
-        "Script": 
-        "Cast": 
-        "url":
-    },
-
-    {
-        "id": 
-        "Title": 
-        "Image": 
-        "Year": 
-        "Duration": 
-        "Genre": 
-        "Description": 
-        "Director": 
-        "Script": 
-        "Cast": 
-        "url":
-    },
-
-    {
-        "id": 
-        "Title": 
-        "Image": 
-        "Year": 
-        "Duration": 
-        "Genre": 
-        "Description": 
-        "Director": 
-        "Script": 
-        "Cast": 
-        "url":
+      "id": 4,
+      "Title": "Trol",
+      "Image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9z4jRr43JdtU66P0iy8h18OyLql.jpg",
+      "Year": 2022,
+      "Duration": "1h 43m",
+      "Genre": "Fantasía, Acción, Aventura",
+      "Description": "Cuando una explosión en las montañas noruegas despierta a un antiguo trol, las autoridades designan a una osada paleontóloga para que evite que cause estragos en el lugar.",
+      "Director": "Roar Uthaug",
+      "Script": "Roar Uthaug, Espen Aukan ",
+      "Cast": "Ine Marie Wilmann, Kim S. Falck-Jørgensen, Mads Sjøgård Pettersen, Gard B. Eidsvold",
+      "url": "https://www.youtube.com/watch?v=VNkicC0BOEQ&ab_channel=NetflixLatinoam%C3%A9rica"
     }
-]
-
-
-
-
+  ],
+  "Users": [
+    {
+      "id": 0,
+      "name": "Leandro",
+      "surname": "Herrera",
+      "birthdate": "1988-12-25",
+      "gender": "male",
+      "email": "qpmjcv2004@hotmail.com",
+      "password": "machosuave",
+      "isAdmin": true
+    },
+    {
+      "id": 1,
+      "name": "Federico",
+      "surname": "Garcia",
+      "birthdate": "1997-12-20",
+      "gender": "male",
+      "email": "fedegar@hotmail.com",
+      "password": "fede1971",
+      "isAdmin": false
+    },
+    {
+      "id": 100,
+      "name": "",
+      "surname": "",
+      "birthdate": "",
+      "gender": "Hombre",
+      "email": "email@hotmail.com",
+      "password": "",
+      "isAdmin": false
+    },
+    {
+      "id": 101,
+      "name": "",
+      "surname": "",
+      "birthdate": "",
+      "gender": "Hombre",
+      "email": "email@hotmail.com",
+      "password": "",
+      "isAdmin": false
+    }
+  ]
+}

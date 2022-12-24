@@ -1,7 +1,37 @@
+var id = 102
 
 
-function register() {
-    let name=document.getElementById("name")
-    let surname=document.getElementById("surname")
-    
+function register(event) {
+    event.preventDefault()
+    let name = document.getElementById("name").value
+    let surname = document.getElementById("surname").value
+    let birthdate = document.getElementById("birthdate").value
+    let gender = document.getElementById("gender").value
+    let mail = document.getElementById("email").value
+    let password = document.getElementById("password").value
+
+    const user = {
+        "id": id++,
+        "name": name,
+        "surname": surname,
+        "birthdate": birthdate,
+        "gender": gender,
+        "email": mail,
+        "password": password,
+        "isAdmin": false
+    }
+
+
+    fetch('http://localhost:3000/Users', {
+        method: 'POST',
+        body: JSON.stringify(user),
+        headers: {
+            'Content-type': 'application/json; charset=UTF-8',
+        },
+    })
+        .then((response) => response.json())
+        .then((json) => console.log(json));
+
 }
+
+register()
