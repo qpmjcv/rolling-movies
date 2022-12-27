@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta author="Gurpo-4"> 
-    <title>Rolling Movies</title>
+    <meta author="Triple C"> 
+    <title>Xpress Movies</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
@@ -20,7 +20,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link active text-white" aria-current="page" href="/index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-white" href="#">Peliculas y Series</a>
@@ -52,11 +52,52 @@
     </header>
 
     <main>
+
+        <section class="espacio"> </section>
         <!--Carousel-->
-        <section></section>
+        <section>
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+              <div class="carousel-item active ">
+                <iframe class="container-fluid iframe" src="https://www.youtube.com/embed/38A__WT3-o0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fw-bold" >Sin lugar para los debiles</h5>
+                  <p>La violencia y el caos se producen después de que un cazador de antílopes, descubre un cargamento de heroína y dos millones de dólares en efectivo.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <iframe class="container-fluid iframe" src="https://www.youtube.com/embed/bDFKIs4v0B4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fw-bold">Avatar: El camino del agua</h5>
+                  <p>La historia de la familia Sully (Jake, Neytiri y sus hijos), los problemas que les persiguen, lo que hacen para mantenerse a salvo, las batallas que libran para seguir vivos y las tragedias que soportan.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <iframe class="container-fluid iframe" src="https://www.youtube.com/embed/a1mcS4tKGNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fw-bold">Black Adam</h5>
+                  <p>Casi 5,000 años después de obtener los poderes supremos de los antiguos dioses, y de ser encarcelado igual de rápido, Teth Adam se libera de su tumba terrenal, listo para desatar su peculiar forma de justicia en el mundo moderno.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
 
         <!--Pelis populares -->
-        <section id="movieCards" class=" contenedor text-center">
+        <section id="movieCards" class="contenedor text-center">
              
         </section>
 
