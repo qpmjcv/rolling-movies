@@ -220,24 +220,14 @@
       "isAdmin": false
     },
     {
-      "id": 100,
-      "name": "",
-      "surname": "",
-      "birthdate": "",
-      "gender": "Hombre",
-      "email": "email@hotmail.com",
-      "password": "",
-      "isAdmin": false
-    },
-    {
-      "id": 101,
-      "name": "",
-      "surname": "",
-      "birthdate": "",
-      "gender": "Hombre",
-      "email": "email@hotmail.com",
-      "password": "",
-      "isAdmin": false
-    }
+      "id": 3,
+      "name": "Pamela",
+      "surname": "Aguirre",
+      "birthdate": "1997-05-15",
+      "gender": "female",
+      "email": "fedegar@hotmail.com",
+      "password": "Pame123456",
+      "isAdmin": true
+    }    
   ]
 }
