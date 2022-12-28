@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Triple C"> 
+    <title>Xpress Movies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="index.html">Xpress Movies</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="/index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Peliculas y Series</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Redes
+                    </a>
+                    <ul class="dropdown-menu bg-info">
+                      <li><a class="dropdown-item text-white" href="https://Youtube.com">Youtube</a></li>
+                      <li><a class="dropdown-item text-white" href="https://Facebook.com">Facebook</a></li>
+                      <li><a class="dropdown-item text-white" href="https://Instagram.com">Instagram</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white">Mi Lista</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="/pages/login.html">Login</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+                  <button class="btn btn-outline-success text-black bg-white" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="espacio"> </section>
+        <!--Carousel-->
+        <section>
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+              <div class="carousel-item active ">
+                <iframe class="container-fluid iframe" src="https://www.youtube.com/embed/38A__WT3-o0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fw-bold" >Sin lugar para los debiles</h5>
+                  <p>La violencia y el caos se producen después de que un cazador de antílopes, descubre un cargamento de heroína y dos millones de dólares en efectivo.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <iframe class="container-fluid iframe" src="https://www.youtube.com/embed/bDFKIs4v0B4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fw-bold">Avatar: El camino del agua</h5>
+                  <p>La historia de la familia Sully (Jake, Neytiri y sus hijos), los problemas que les persiguen, lo que hacen para mantenerse a salvo, las batallas que libran para seguir vivos y las tragedias que soportan.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <iframe class="container-fluid iframe" src="https://www.youtube.com/embed/a1mcS4tKGNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fw-bold">Black Adam</h5>
+                  <p>Casi 5,000 años después de obtener los poderes supremos de los antiguos dioses, y de ser encarcelado igual de rápido, Teth Adam se libera de su tumba terrenal, listo para desatar su peculiar forma de justicia en el mundo moderno.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+        <!--Pelis populares -->
+        <section id="movieCards" class=" container contenedor text-center">
+             
+        </section>
+
+        <!--Peliculas animadas-->
+        <section>
+          
+        </section>
+
+        <!--Peliculas infantiles--> <!--Tomen todo esto como ejemplo solamente-->
+        <section></section>
+    </main>
+
+    <footer>
+      <div class=" container-fluid fixed-bottom">
+          <div class="row bg-dark text-white align-items-center">
+              <div class="col-xs-12 col-md-4 col-lg-4">
+                <a href="/index.html"><img class="" src="/assets/images/logo/logoXpressMovies_PNG.png" alt="Xpress Movies Logo" width="160"></a> 
+                  <p class="h4">Xpress Movies</p>
+                  <p class="text-secondary">Tucumán</p>
+              </div>
+              <div class="col-xs-12 col-md-4 col-lg-4">
+                   <p class="h5">Contacto</p> 
+                   <div class="">
+                       <a class="text-secondary text-decoration-none" href="/pages/error404.html"> <i class="bi bi-envelope"> contact@xpressmovies.com</i> </a>
+                   </div>
+                   <div class="">
+                      <a class="text-secondary text-decoration-none" >Tel</a>
+                  </div>
+                  <div class="">
+                      <a class="text-secondary text-decoration-none" href="/pages/aboutUs.html">Acerca de nosotros</a>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-md-4 col-lg-4">
+                  <p class="h5 ">Redes sociales</p>
+                  <div class="">
+                      <a class="text-secondary text-decoration-none" href="/pages/error404.html" class="facebook"> <i class="bi bi-instagram"> Instagram</i> </a>
+                  </div>
+                  <div class="">
+                      <a class="text-secondary text-decoration-none" href="/pages/error404.html"><i class="bi bi-facebook"> Facebook</i> </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
