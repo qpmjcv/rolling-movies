@@ -1,1 +1,1 @@
- let seeMore = document.getElementById()
+ let seeMore = document.getElementById(details)

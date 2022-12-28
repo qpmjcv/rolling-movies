@@ -195,9 +195,7 @@
       "cast": "Robert De Niro, John Malkovich, Jack Huston, Willa Fitzgerald",
       "url": "https://www.youtube.com/watch?v=Fbrr0savqlA&ab_channel=IGNMovieTrailers"
     }
-  
   ],
-
   "Users": [
     {
       "id": 0,
@@ -225,9 +223,19 @@
       "surname": "Aguirre",
       "birthdate": "1997-05-15",
       "gender": "female",
-      "email": "fedegar@hotmail.com",
+      "email": "paguirre739@gmail.com",
       "password": "Pame123456",
       "isAdmin": true
-    }    
+    },
+    {
+      "name": "Maciel",
+      "surname": "Castro",
+      "birthdate": "1991-01-20",
+      "gender": "Hombre",
+      "email": "castromaciel00@gmail.com",
+      "password": "maciel123456",
+      "isAdmin": true,
+      "id": 4
+    }
   ]
 }

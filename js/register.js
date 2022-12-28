@@ -1,4 +1,4 @@
-var id = 102
+
 
 
 function register(event) {
@@ -7,18 +7,18 @@ function register(event) {
     let surname = document.getElementById("surname").value
     let birthdate = document.getElementById("birthdate").value
     let gender = document.getElementById("gender").value
-    let mail = document.getElementById("email").value
+    let email = document.getElementById("email").value
     let password = document.getElementById("password").value
 
     const user = {
-        "id": id++,
-        "name": name,
-        "surname": surname,
-        "birthdate": birthdate,
-        "gender": gender,
-        "email": mail,
-        "password": password,
-        "isAdmin": false
+        
+        name,
+        surname,
+        birthdate,
+        gender,
+        email,
+        password,
+        isAdmin: false
     }
 
 

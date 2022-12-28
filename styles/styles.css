@@ -9,6 +9,10 @@
     font-weight: 600;
   }
   
+ .poster{
+  width: 500px;
+ }
+
   .espacio{
     height: 60px;
   }
